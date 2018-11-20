@@ -1,0 +1,13 @@
+What does CSS stand for?
+    CSS stands for Cascading Style Sheet
+    It will help us design the style of differnet elemnets on the webpage
+
+What are css selectors and what are they used for?
+    CSS selectors are used to find an element with div, class, id 
+    We can use select any element on the webpage
+
+How many ways are there to insert css?
+    There are 3 different ways to insert css.
+        1. External CSS file
+        2. Inline CSS
+        3. Internal CSS 
