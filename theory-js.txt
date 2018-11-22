@@ -1,0 +1,16 @@
+What can you use JS for?
+    JS is used for the validation on the web pages.
+    We can decide the behaviour of our web page 
+
+Where can you put javascript on the page?
+    We can place JavaScript in <head> or <body> in HTML file.
+    Scripts can be placed in the <body>, or in the <head> section of an HTML page, or in both.
+
+What is a javascript function?
+    Functions are designed to perform a particular task.
+    They return a value as output.
+    We can also call a function in some other function.
+
+Can you give an example of an event?
+    onClickevent
+    <button onclick="displayDate()">The time is?</button>
