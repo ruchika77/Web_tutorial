@@ -1,0 +1,33 @@
+What is a variable?
+    Variables are used to store the data in JS.
+        eg : var name = "Ruchika"
+             var id = 2
+    
+What is a function argument?
+    Argument is nothing but value which can be send when we declare a function
+        eg : function add(a,b){
+            //Here a and b are the arguments
+        }
+
+What is a function parameter?
+    Function parameter are used to refer to the variable in the function definition.
+    They are enclosed in parentheses()
+
+What is a function definition?
+    Function is defined with function keyword and they are enclosed in parentheses{}
+        eg: function functionName(a,b){
+            //function defintion
+        } 
+
+What is a local variable?
+    Local variable is declared within function and there scope are limited in the defined function.
+
+Can a variable be a function?
+    Yes, a varaible can be function when we assign it to a variable.
+        eg : var a = sum()
+
+Can a function return a function?
+    No, funciton cannot return a function
+
+Does it matter where you include the javascript files [e.g. head or end of the page body]? Why?
+    It doesnot matter where we put JS file but it should be included in script tag.
