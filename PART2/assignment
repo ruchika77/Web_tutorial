@@ -1,0 +1,27 @@
+Create a file index.html.
+Inside of it, put a button in the middle [vertical and horizontal] of the page. Have the button say "Advance!".
+Bellow the button [horizontally centered] have a paragraph reading "Using HTML and CSS moves the web forward!", with an id of "content".
+
+Create a file helpers.js
+Create a file script.js.
+Include both files in the html page.
+
+Inside the helper.js:
+
+Define a function called "getPrefixedMessanger" that has a single parameter = "text".
+getPrefixedMessanger should return another function.
+The inner function should have a local variable "moreText" with a value " moves the web forward!". The inner function should return the argument of the first one prepended to the inner variable.
+
+Inside the script.js
+
+Declare a variable message.
+Create a variable "prefix" with a value of "Javascript"
+Create a variable "messanger" with a value the result of calling getPrefixedMessanger with prefix.
+Initialise the message variable with a value the result of calling "messanger"
+Create a function showMessage, that when called, finds the element on the page with the id of "content", and changes its content to be the value held by the 'message' variable.
+
+
+Make clicking the button inside the index.html call "showMessage".
+
+
+If everything works properly, after clicking the button, you should see "Javascript moves the web forward!"
