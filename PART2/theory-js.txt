@@ -27,7 +27,7 @@ Can a variable be a function?
         eg : var a = sum()
 
 Can a function return a function?
-    No, funciton cannot return a function
+     Yes, a function can return a function 
 
 Does it matter where you include the javascript files [e.g. head or end of the page body]? Why?
     It doesnot matter where we put JS file but it should be included in script tag.
