@@ -1,0 +1,41 @@
+What is a global variable?
+    Variables are declared anywhere in the function are called global variables.
+    There scope is not limited.
+    
+What is a local variable?
+    Variables which are declared inside the function those are called local variable.
+    There scope is limited only inside the closed braces.
+
+
+What is closure?
+    Closure is {} curly braces which means any variable defined in function can be enclosed in closure.
+
+
+Provide an example of a closure
+
+eg:1
+    var x=1
+    function display(){
+        console.log(x)
+    }
+
+eg:2
+    function display(){
+        var x=2
+        console.log(x)
+    }
+
+In eg 1 x is global variable and eg 2 x is local variable
+
+
+------
+What will this return:
+
+var a = 1
+function myFunc() {
+	var a;
+	return a;
+}
+console.log(myFunc())
+
+// Answer : undefined as a is declared twice. So, the one declared inside the function will be call and there is no value assigned to it so, it will print undefined
